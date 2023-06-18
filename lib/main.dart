@@ -28,6 +28,7 @@ class _ProductListState extends State<ProductList> {
     Product(name: 'Mango', price: 60),
     Product(name: 'Apple', price: 200),
     Product(name: 'Banana', price: 50),
+    Product(name: 'Jackfruit', price: 300),
   ];
 
   @override
@@ -64,6 +65,8 @@ class Product {
 
   Product({required this.name, required this.price, this.count = 0});
 }
+
+
 
 class ProductListItem extends StatelessWidget {
   final Product product;
